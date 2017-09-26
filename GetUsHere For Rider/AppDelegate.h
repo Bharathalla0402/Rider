@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+#import "SidebarViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,CLLocationManagerDelegate>
+{
+    NSString *devicetokenString;
+    ViewController *vc;
+    SidebarViewController *side;
+    CLLocationManager *locationManager;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
 
 @end
 

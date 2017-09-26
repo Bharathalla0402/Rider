@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>nn.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>4FCA57111C6D8B5A00741014</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FE87B8A1C7433CC0003A611</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FE87BA21C7433CC0003A611</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FE87BAD1C7433CC0003A611</key>
 		<dict>
 			<key>primary</key>
 			<true/>

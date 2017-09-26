@@ -1,0 +1,80 @@
+//
+//  GetUsHere.pch
+//  GetUsHere For Rider
+//
+//  Created by bharat on 12/04/16.
+//  Copyright © 2016 bharat. All rights reserved.
+//
+
+#ifndef GetUsHere_pch
+#define GetUsHere_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#define  BaseUrl @"http://think360.co/taxiapp/api/index.php/12345/"
+
+//#define  BaseUrl @"http://think360.co/gccarandlimo/api/index.php/12345/"
+
+//#define BaseUrl @"http://think360.co/hoppinride/api/index.php/12345/"
+
+//#define  BaseUrl @"http://gccarandlimo.com/api/api/index.php?/12345/"
+
+//#define  BaseUrl @"http://getushere.com/api/api/index.php?/12345/"
+
+#define BaseUrl @"http://think360.in/hoppinride/api/index.php/12345/"
+
+
+
+#define loginform @"login"
+#define socialLogin @"social_login"
+
+#define logincheck @"login_check"
+
+#define registration @"register"
+#define verification @"verify"
+#define resendOtp @"resend_otp"
+#define emailme @"email_Otp"
+
+
+#define forgotpassword @"forgot_password"
+
+#define getUserCounts @"get_user_counts"
+
+#define getTrips @"get_trips"
+#define getcarTypes @"get_car_types"
+#define userSettings @"user_settings"
+#define cancelTrip @"cancel_trip"
+
+#define estimateFare @"estimate_fare"
+
+#define nearCars @"near_cars"
+#define bookNow @"book_now"
+#define getBookingInfo @"get_booking_info"
+#define riderBookingCheck @"rider_booking_check"
+#define gettrip @"get_trip"
+
+#define editprofile @"edit_profile"
+#define myprofileinfo @"myprofile_info"
+
+#define addemergencycontact @"add_emergency_contact"
+#define updateemergencycontact @"update_emergency_contacts"
+#define deleteemergencycontacy @"delete_emergency_contacts"
+
+#define sendNewMessage @"send_new_msg"
+#define allmessage @"get_all_messages_by_user"
+
+#define invoicedetail @"invoice_detail"
+#define addtrip @"add_tip"
+
+#define paymenttrip @"payment_trip"
+#define paymentstatus @"paypal_status"
+
+#define driverrating @"driver_rating"
+
+#define getpages @"get_pages"
+#define invoiceemail @"invoice_email"
+#define requestnow @"request_now"
+
+
+#endif /* GetUsHere_pch */
